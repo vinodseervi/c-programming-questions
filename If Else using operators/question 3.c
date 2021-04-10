@@ -11,7 +11,7 @@ int main()
     
     
 	
-	if(a /2==0)
+	if(a%2==0)
 	{
 		printf("Your value is even");
 	}

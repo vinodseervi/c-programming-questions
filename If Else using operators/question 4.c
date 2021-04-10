@@ -20,14 +20,18 @@ int main()
     	printf("Your value is quadrant second");
 	}
 	
-		if(x<0 && y<0)
+	if(x<0 && y<0)
 	{
 		printf("Your value is quadrant three");
 	}
 	
-		if(x<0 && y>0)
+	if(x<0 && y>0)
 	{
 		printf("Your value is quadrant fourth");
+	}
+	if(x==0&&y==0)
+	{
+		printf("your value is horition");
 	}
 	
 	
